@@ -1,0 +1,26 @@
+{
+  "name": "poc-webpack-typescript-async-await",
+  "version": "1.0.0",
+  "description": "This project explores async/await using Webpack to bundle TypeScript targeting ES6.",
+  "scripts": {
+    "prehw": "npm run hw:build",
+    "hw": "npm run hw:run",
+    "hw:build": "webpack --config webpack.config.js --progress --bail",
+    "hw:watch": "webpack --config webpack.config.js --progress --watch",
+    "hw:run": "cd bin/async-await-hello-world && node app.bundle.js"
+  },
+  "author": "Robert Raiford (rob3c)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.7.2",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.7.0",
+    "ts-loader": "^0.8.1",
+    "ts-node": "^0.6.0",
+    "typescript": "^1.9.0-dev.20160128",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "source-map-support": "^0.4.0"
+  }
+}

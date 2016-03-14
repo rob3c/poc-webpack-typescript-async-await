@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": false,
+        "allowUnreachableCode": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": false,
+        "noImplicitReturns": true,
+        "outDir": "bin",
+        "rootDir": ".",
+        "sourceMap": true,
+        "target": "es6"
+    },
+    "exclude": [
+        "bin",
+        "node_modules",
+        "typings/browser",
+        "typings/browser.d.ts",
+        "typings/main.d.ts"
+    ]
+}
